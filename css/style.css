@@ -412,3 +412,39 @@ box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
     background-repeat: no-repeat;
    }
 
+   .leady{
+    /* padding-top: 173px;
+    padding-bottom: 159px; */
+    background: url(/images/1\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+   }
+
+   .digit{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 237px;
+   }
+   .digit h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+   }
+.do{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 187px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-left: 217px;
+  padding-right: 171px;
+}
+
+.number{
+    padding-top: 173px;
+    padding-bottom: 159px;
+    background-color: #0000006d;
+}
+
+
