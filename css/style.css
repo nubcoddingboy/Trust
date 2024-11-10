@@ -447,4 +447,103 @@ box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
     background-color: #0000006d;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 95px;
 
+    /* padding: 100px; */
+  }
+
+  /* Styling the heading */
+  h2 {
+    margin: 10px 0;
+  }
+
+  /* Styling the image with pseudo-elements */
+  .image-container {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  /* Image style */
+  /* img {
+    width: 300px;
+    height: auto;
+  } */
+
+  /* Adding border using ::before and ::after */
+  .image-container::before,
+  .image-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 70px;
+    height: 2px;
+    margin: 0 80px;
+    margin-top: 20px;
+
+    background-color: black;
+  }
+
+  /* Left border */
+  .image-container::before {
+    left: -10px;
+  }
+
+  /* Right border */
+  .image-container::after {
+    right: -10px;
+  }
+
+  /* Styling the paragraph */
+  p {
+    margin-top: 15px;
+  }
+
+  .imgbox{
+width: 100%;
+/* padding: 70px; */
+ }
+
+ .imgarea{
+    width: 85%;
+    margin: 0 auto;
+ }
+
+ .boximg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+ }
+
+ .iconman{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+ }
+.boxsize{
+    /* padding: 20px; */
+   
+}
+
+.iconman{
+padding: 10px;
+text-align: center;
+
+}
+
+.icons{
+    padding: 30px 0px;
+}
+
+.icons i{
+    padding: 20px;
+}
