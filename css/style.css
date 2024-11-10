@@ -253,12 +253,13 @@ center p{
 }
 .imgbox{
     width: 30%;
-    margin: 0 auto;
+    margin: 0 4px;
     
 }
 
 .imgbox img{
     width: 100%;
+    
 }
 
 .imgone{
