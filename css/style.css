@@ -548,3 +548,205 @@ text-align: center;
 .icons i{
     padding: 20px;
 }
+
+.newdiv{
+    padding-top: 158px;
+    padding-bottom: 98px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.imgly {
+    display: inline-block;
+    text-align: center;
+    
+   
+}
+
+.divly{
+    position: relative;
+}
+.divly h2{
+    padding-bottom: 20px;
+}
+
+.imgly::after,
+.imgly::before{
+
+    content: '';
+    height: 2px;
+  width: 90px;
+  background-color: #5f4747;
+  position: absolute;
+  margin: 12px auto;
+    
+
+}
+.imgly::before{
+    left: 550px;
+}
+
+.imgly::after{
+    right: 550px;
+}
+
+.SaveTheChild{
+    width: 100%;
+    padding: 30px ;
+   
+}
+
+
+.ForNewGenaration{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+
+    padding: 40px;
+}
+
+.ForNewHope{
+    width: 33%;
+    position: relative;
+
+}
+
+.ForNewHope img{
+    width: 100%;
+    
+}
+
+.ForNewHope a span img{
+    width: 25px;
+    height: 10px;
+    display: inline-block;
+}
+
+.imgover{
+   width: 100%;
+   height: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.34);
+    position: absolute;
+    top: 0;
+    left: 0;
+   visibility: hidden;
+  
+
+}
+
+.imgover img{
+    height: 20px;
+    width: 20px;
+    size: 30px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+.ForNewHope:hover .imgover img{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.7s;
+    transition-duration: 0.9s;
+}
+
+.ForNewHope:hover .imgover{
+    visibility: visible;
+    transition: 0.4s;
+}
+
+.imgcontext p,h3,a{
+    text-align: left;
+   display: block;
+   padding: 10px;
+}
+
+.footer{
+    width: 100%;
+    padding-top: 167px;
+    padding-bottom: 156px;
+    background-color: rgb(63, 60, 60);
+}
+
+.footermain{
+    width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#hard{
+    padding: 20px 0;
+  
+}
+
+.hardpart{
+    width: 200px;
+    background-color: rgb(18, 20, 16);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.hardflex{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.harditam{
+    width: 100%;
+    display: flex;
+    
+}
+
+.harditamimg{
+    position: relative;
+}
+.harditamimg img{
+    width: 100%;
+
+}
+
+.harditamimgoverly{
+    width: 100%;
+    height: 100%;
+    background-color: #00000063;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.harditamimgoverly img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.hardflex:hover .harditamimgoverly{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
