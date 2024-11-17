@@ -740,6 +740,18 @@ text-align: center;
     opacity: 1;
     visibility: visible;
 }
+.footer h2{
+        color: aliceblue;
+    }
+
+    .footer p{
+        color: #E5E5E5;
+    }
+    .fone i{
+        margin-top: 20px;
+        color: chartreuse;
+        padding: 0 15px;
+    }
 
 
 
