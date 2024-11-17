@@ -670,7 +670,7 @@ text-align: center;
 .footer{
     width: 100%;
     padding-top: 167px;
-    padding-bottom: 156px;
+    padding-bottom: 90px;
     background-color: rgb(63, 60, 60);
 }
 
@@ -751,6 +751,13 @@ text-align: center;
         margin-top: 20px;
         color: chartreuse;
         padding: 0 15px;
+    }
+    .final p{
+        width: 700px;
+        height: 20px;
+        background-color: 1px solid black;
+        text-align: center;
+        color: #000;
     }
 
 
